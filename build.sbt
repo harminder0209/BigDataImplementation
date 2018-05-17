@@ -12,4 +12,7 @@ mainClass in (Compile, run) := Some("Kafka.kafkaProducerImplementation")
 // set the main class for packaging the main jar
 mainClass in (Compile, packageBin) := Some("Kafka.kafkaProducerImplementation")
 
+mainClass in (Compile, packageBin) := Some("Kafka.kafkaProducerImplementation")
+
+
 
